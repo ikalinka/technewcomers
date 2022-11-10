@@ -1,4 +1,27 @@
 header nav.top-nav {
+	overflow: hidden;
 	height: 20px;
 	padding: 35px 0px 35px 0px;
+}
+
+nav {
+	display: block;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+div {
+	display: block;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0em;
+	margin-inline-end: 0em;
+	padding-inline-start: 40em;
 }
