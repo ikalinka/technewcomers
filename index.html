@@ -1,39 +1,59 @@
 <!doctype html>
-<html>
+<html class="h-full bg-gray-50 antialiased js-focus-visible" lang="en" data-js-focus-visible>
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
 		<title>TN Online Tech School</title>
-		<!--<link rel="stylesheet" href="https://technewcomers.com/css/styles.css"> -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://technewcomers.com/css/styles.css" data-n-g="">
 		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="mx-auto max-w-7xl x-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-8">
-					<div class="relative z-10 flex items-center gap-16">
-						<a aria-label="Home" href="https://technewcomers.com">
-							<img loading="eager" width="120" src="https://technewcomers.com/images/logos/tech-newcomers-low-resolution-logo-black-on-transparent-background.png" alt="TN Online">
-						</a>
-					<div class="relative z-10 flex items-center gap-16">
-						<div class="hidden lg:flex lg:gap-10">
-							<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#Products">
-								<span class="relative z-10 flex items-center gap-16">Products</span>
-							</a>
-							<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#About">
-								<span class="relative z-10 flex items-center gap-16">About</span>
-							</a>
-							<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#FAQ">
-								<span class="relative z-10 flex items-center gap-16">FAQs</span>
-							</a>
-							<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#Contacts">
-								<span class="relative z-10 flex items-center gap-16">Contacts</span>
+	<body class="flex h-full flex-col">
+		<div id="__next">
+			<header>
+				<nav>
+					<div class="mx-auto max-w-7xl x-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-8">
+						<div class="relative z-10 flex items-center gap-16">
+							<a aria-label="Home" href="https://technewcomers.com">
+								<img loading="eager" width="120" src="https://technewcomers.com/images/logos/tech-newcomers-low-resolution-logo-black-on-transparent-background.png" alt="TN Online">
 							</a>
 						</div>
+						<div class="relative z-10 flex items-center gap-16">
+							<div class="hidden lg:flex lg:gap-10">
+								<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#Products">
+									<span class="relative z-10 flex items-center gap-16">Products</span>
+								</a>
+								<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#About">
+									<span class="relative z-10 flex items-center gap-16">About</span>
+								</a>
+								<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#FAQ">
+									<span class="relative z-10 flex items-center gap-16">FAQs</span>
+								</a>
+								<a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="#Contacts">
+									<span class="relative z-10 flex items-center gap-16">Contacts</span>
+								</a>
+							</div>
+						</div>
+						<div class="flex items-center gap-6">
+							<div class="lg:hidden" data-headlessui-state="">
+								<button class="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&amp;:not(:focus-visible)]:focus:outline-none" aria-label="Toggle site navigation" id="headlessui-popover-button-:Rp6:" type="button" aria-expanded="false" data-headlessui-state="">
+									<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" class="h-6 w-6">
+										<path d="M5 6h14M5 18h14M5 12h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</button>
+							</div>
+							<a class="inline-flex justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80 hidden lg:block" href="/login">Log in</a>
+							<a class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 hidden lg:block" href="/#">Sign Up</a>
+						</div>
 					</div>
-					<div class="flex items-center gap-6"></div>
-				</div>
-			</nav>
-		<div>
-			<button>START TEST</button>
+				</nav>
+			</header>
 		</div>
+		<div>
+		<button>START TEST</button>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
